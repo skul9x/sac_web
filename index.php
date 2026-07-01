@@ -162,7 +162,7 @@ require_once 'functions.php';
 
     <!-- Update Form Card -->
     <div class="glass rounded-3xl p-6 md:p-8 shadow-xl shadow-slate-200/50 mb-6 border border-white/50 ">
-      <form method="post">
+      <form method="post" autocomplete="off">
         <h2 class="text-lg font-bold text-slate-800 mb-5 flex items-center gap-2">
           <span class="w-8 h-8 rounded-xl bg-primary-500/10 flex items-center justify-center">⚡</span>
           Cập Nhật & Sạc Đầy
@@ -272,7 +272,7 @@ require_once 'functions.php';
         <div class="p-5 md:p-6 pt-0 space-y-6">
           
           <!-- Estimate Time to Full -->
-          <form method="post">
+          <form method="post" autocomplete="off">
             <h3 class="text-sm font-semibold text-slate-700 mb-3">⏱️ Ước tính thời gian sạc đầy</h3>
             <div class="space-y-3">
               <input 
@@ -297,7 +297,7 @@ require_once 'functions.php';
           <hr class="border-slate-200 ">
           
           <!-- Calculate Required Current -->
-          <form method="post">
+          <form method="post" autocomplete="off">
             <h3 class="text-sm font-semibold text-slate-700 mb-3">💡 Tính dòng sạc cần thiết</h3>
             <div class="flex gap-3">
               <div class="flex-1">
@@ -322,7 +322,7 @@ require_once 'functions.php';
           <hr class="border-slate-200 ">
           
           <!-- Simulate Charge -->
-          <form method="post">
+          <form method="post" autocomplete="off">
             <h3 class="text-sm font-semibold text-slate-700 mb-3">📈 Tính thử % pin sạc được</h3>
             <div class="grid grid-cols-3 gap-3 mb-3">
               <div>
@@ -385,7 +385,7 @@ require_once 'functions.php';
       
       <div class="accordion-content">
         <div class="p-5 md:p-6 pt-0">
-          <form method="post">
+          <form method="post" autocomplete="off">
             <h3 class="text-sm font-semibold text-slate-700 mb-2">🔌 Cộng Ah sạc lẻ</h3>
             <p class="text-xs text-slate-500 mb-4">
               Dùng khi sạc một lượng nhỏ và không muốn reset mốc "sạc đầy".
